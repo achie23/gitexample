@@ -1,0 +1,51 @@
+header, section, footer, aside, article, hgroup {
+	display: block;
+}
+
+h1 {
+	font: bold 25px Verdana; 
+}
+
+h2 {
+	font: bold 20px Verdana; 
+}
+
+body {
+    width: 100%;
+    margin: 10px;
+}
+
+#top_header {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', 'Verdana', 'sans-serif';
+    font-size: 0px 5px 0px 5px;
+}
+
+nav ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: rgb(161, 65, 225);
+}
+
+nav li {
+	float: left;
+}
+
+nav li a {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 16px;
+	text-decoration: none;
+}
+
+nav li a:hover {
+	background-color: #111111;
+}
+
+#main_footer {
+	text-align: center;
+	padding: 20px;
+    border-top: 2px solid green;
+}
